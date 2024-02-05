@@ -1,6 +1,6 @@
 import React from "react";
 
-const ClientSection = () => {
+export const ClientSection = () => {
   return (
     <div className="p-4 container mx-auto">
       <h2 className="text-4xl font-bold text-center my-6">Naši klienti</h2>
@@ -8,5 +8,3 @@ const ClientSection = () => {
     </div>
   );
 };
-
-export default ClientSection;

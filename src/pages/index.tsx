@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import ClientSection from "../components/ClientSection";
-import About from "../components/about";
+import { ClientSection } from "../components/ClientSection";
+import { About } from "../components/about";
 
 export default function Home() {
   return (

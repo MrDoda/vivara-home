@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-const About = () => {
+export const About = () => {
   return (
     <div>
       <Head>
@@ -14,5 +14,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;
