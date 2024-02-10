@@ -11,12 +11,11 @@ export const Navbar = () => {
         </div>
         <div>
           <Link href="#clientsection" className="mx-4 hover:text-gray-300">
-            Klienti
+            Our Clients
           </Link>
           <Link href="#about" className="mx-4 hover:text-gray-300">
-            Náš tým
+            Our Team
           </Link>
-          {/* Další odkazy */}
         </div>
       </div>
     </nav>

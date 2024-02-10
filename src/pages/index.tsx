@@ -14,6 +14,7 @@ export default function Home() {
       <main className="flex flex-col justify-center items-center min-h-screen">
         <h1 className="text-4xl font-bold mb-6">Fuck my life</h1>
         <div id="ClientSection" className="w-full">
+          <h1 className="text-4xl font-bold mb-6 text-center">Our Clients</h1>
           <ClientSection />
         </div>
         <div id="About" className="w-full">
