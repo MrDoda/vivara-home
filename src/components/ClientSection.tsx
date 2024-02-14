@@ -5,13 +5,13 @@ import { LoremIpsum } from "react-lorem-ipsum";
 
 export function ClientSection() {
   return (
-    <div className="h-48 sm:h-64 md:h-80 lg:h-96 overflow-hidden">
-      <Carousel className="rounded-xl" placeholder={undefined}>
+    <div className="h-48 sm:h-64 md:h-80 lg:h-96 overflow-hidden flex justify-center ">
+      <Carousel className="rounded-full w-4/5 mt-2 " placeholder={undefined}>
         <div className="relative h-full w-full">
           <img
             src="/images/alteryx.jpg"
             alt="image 1"
-            className="h-full w-full object-cover carousel-img"
+            className="h-full w-full object-cover "
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-3/4 text-center md:w-2/4">
