@@ -8,7 +8,7 @@ export const About = () => {
         <title>O nás</title>
       </Head>
       <main className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center my-6">Náš tým</h1>
+        <h1 className="text-4xl font-bold text-center my-6">Our Team</h1>
         <div className="flex justify-around flex-wrap ">
           <div className="w-1/3 text-center p-4">
             <img
