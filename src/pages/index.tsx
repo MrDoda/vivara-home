@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { ClientSection } from "../components/ClientSection";
-import { About } from "../components/about";
+import { About } from "../components/About";
+import { Vivara } from "@/components/Vivara";
 
 export default function Home() {
   return (
@@ -10,17 +11,20 @@ export default function Home() {
         <title>Moje Statická Stránka</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex flex-col justify-center items-center min-h-screen">
-        <h1 className="text-4xl font-bold mb-6">Fuck my life</h1>
-        <div id="ClientSection" className="w-full">
-          <h1 className="text-4xl font-bold mb-6 text-center">Our Clients</h1>
-          <ClientSection />
-        </div>
-        <div id="About" className="w-full">
-          <About />
-        </div>
-      </main>
+      <div className="relative w-full ">
+        <main className="relative flex flex-col items-center z-10">
+          <Vivara />
+          <div id="clientsection" className="w-full">
+            <h1 className="text-4xl font-bold mb-6 text-center text-black">
+              Our Clients
+            </h1>
+            <ClientSection />
+          </div>
+          <div id="about" className="w-full">
+            <About />
+          </div>
+        </main>
+      </div>
 
       {/* Footer */}
     </div>

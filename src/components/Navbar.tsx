@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white p-4">
+    <div className="text-white p-4  ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <div className="font-bold mr-4">MojeLogo</div>
@@ -18,6 +18,6 @@ export const Navbar = () => {
           </Link>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };

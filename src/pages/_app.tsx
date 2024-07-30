@@ -8,7 +8,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.StrictMode>
       <ThemeProvider>
-        <Navbar />
         <Component {...pageProps} />
       </ThemeProvider>
     </React.StrictMode>
